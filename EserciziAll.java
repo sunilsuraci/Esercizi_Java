@@ -9,7 +9,7 @@ public class EserciziAll {
 
 public static int Compreso (int a, int b, int c){
     if ((a>b & c<b) || (a<b & c>b)){
-        System.out.println(b + " e' compreso tra " + a +" e " + b);
+        System.out.println(b + " e' compreso tra " + a +" e " + c);
         return b;
     }else {
         System.out.println(b + " Non e' compreso tra i due numeri " + a + " e " + c);
@@ -19,7 +19,7 @@ public static int Compreso (int a, int b, int c){
 
 
     public static void main(String[] args){
-        Compreso(7,44,14);
+        Compreso(50,44,14);
     }
     
 }
