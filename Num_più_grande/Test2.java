@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Test2 {
     public static void main(String[] args){
-       /*  ilPiuGrande(6, 8);
+         ilPiuGrande(6, 8);
     }
     public static int ilPiuGrande (int num1, int num2) {
         if(num1 > num2){
@@ -13,9 +13,9 @@ public class Test2 {
             System.out.println(num2 + "è più grande");
         }
         return num2;
-        */
+        
 
-        Scanner scan = new Scanner(System.in);
+        /*Scanner scan = new Scanner(System.in);
         System.out.println("Digita un qualsiasi numero");
         int num = scan.nextInt();
         scan.nextLine();
@@ -26,7 +26,7 @@ public class Test2 {
 
         System.out.println("Il più grande tra i due numeri è " + num3);
 
-        scan.close();
+        scan.close(); */
 
 
     }
