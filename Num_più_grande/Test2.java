@@ -15,18 +15,7 @@ public class Test2 {
         return num2;
         
 
-        /*Scanner scan = new Scanner(System.in);
-        System.out.println("Digita un qualsiasi numero");
-        int num = scan.nextInt();
-        scan.nextLine();
-        System.out.println("Digita il secondo numero");
-        int num2 = scan.nextInt();
-
-        int num3 = Math.max(num, num2);
-
-        System.out.println("Il più grande tra i due numeri è " + num3);
-
-        scan.close(); */
+        
 
 
     }
