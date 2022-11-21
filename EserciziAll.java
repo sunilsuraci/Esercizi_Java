@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class EserciziAll {
 
     //Decrescente//
@@ -28,6 +30,23 @@ public class EserciziAll {
             System.out.println(a + " Non e' un numero Pari");
         }return a;
     }
+
+
+    //Sommatrice 
+
+
+    public static int Sommatrice(int num){
+    Scanner scan = new Scanner(System.in);
+        System.out.println("Digita un qualsiasi numero");
+        int a = scan.nextInt();
+
+        return a;
+        
+        
+    }
+
+        
+    
 
 
     public static void main(String[] args){
