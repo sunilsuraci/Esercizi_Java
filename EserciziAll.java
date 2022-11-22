@@ -2,10 +2,24 @@ import java.util.Scanner;
 
 public class EserciziAll {
 
-    //Decrescente//
-   /*  public static int Calcola (int num){
-        return num;
-    }; */
+    public static void Decrescente() {
+        Scanner input = new Scanner(System.in);
+        
+        boolean flag = true;
+        while (flag){
+            System.out.println("Inserisci un numero da 5 cifre: ");
+            int a = input.nextInt();
+            if(9999 < a && a < 100000){
+                flag = false;
+                for(int i = a; i >= 150; i = i -2) {
+                    System.out.println("Numero invalido");
+                }
+
+            }
+        }
+
+        input.close();
+    }
 
     //Compreso
 
@@ -76,13 +90,35 @@ public class EserciziAll {
         input.close();
     }
 
+
+    //Valore Assoluto
+
+
         
     
+
+    //Rimuovere elemento array
+    
+    public  static int [] rimuoviElemento(int [] lista, int posizione){
+        
+        if (lista == null || posizione < 0 || posizione >= lista.length){
+            
+        }
+
+        return lista;
+
+    }
 
 
     public static void main(String[] args){
         Compreso(50,44,14);
         PariDispari(6);
+
+        int [] lista = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+
+
+        rimuoviElemento(lista, 4);
     }
     
 }
