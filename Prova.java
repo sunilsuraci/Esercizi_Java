@@ -5,7 +5,8 @@ public class Prova {
         Scanner input = new Scanner(System.in);
         System.out.println("Digita un qualsiasi numero: ");
         int a = input.nextInt();
-        while(a != 0){
+        boolean flag = true;
+        while(flag){
             
             
         } 

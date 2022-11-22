@@ -63,11 +63,12 @@ public class EserciziAll {
 
 
     public static void Funzione (){
-         Scanner input = new Scanner(System.in);
-        System.out.println("Digita un qualsiasi numero: ");
-        int a = input.nextInt();
-        while(a != 0){
-            
+        Scanner input = new Scanner(System.in);
+       
+        boolean flag = true;
+        while(flag){
+            System.out.println("Digita un qualsiasi numero: ");
+            int a = input.nextInt();
             
         } 
         
