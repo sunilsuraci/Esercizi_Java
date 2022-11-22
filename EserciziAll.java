@@ -35,12 +35,16 @@ public class EserciziAll {
     //Sommatrice 
 
 
-    public static int Sommatrice(int num){
+    public static void Sommatrice(){
     Scanner scan = new Scanner(System.in);
-        System.out.println("Digita un qualsiasi numero");
+    
+    System.out.println("Digita un qualsiasi numero");
+    do{
+        
         int a = scan.nextInt();
-
-        return a;
+        
+    } while (a == 0);
+        
         
         
     }
